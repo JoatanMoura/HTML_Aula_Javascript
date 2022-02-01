@@ -1,7 +1,39 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
+    //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    //window.open("http://www.graficaimediatapb.com.br");
+    window.location.href ="http://graficaimediatapb.com.br";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página carregada")
+}
+
+function funcaoChange(elemento){
+    alert(elemento.value);
+}
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
+*/
 
+/*
 function validaIdade(idade){
     var validar;
     if (idade >= 18){
@@ -11,11 +43,14 @@ function validaIdade(idade){
     }
     return validar;
 }
+*/
 
+/*
 var idade = prompt("Qual é a sua idade?");
 console.log(validaIdade(idade));
 
 //alert(soma(5,10));
+*/
 
 /*
 var d = new Date;
